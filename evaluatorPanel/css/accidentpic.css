@@ -1,0 +1,166 @@
+
+
+
+@font-face {
+    font-family: Vazir;
+    font-style: normal;
+    font-weight: normal;
+    src: url('../../fonts/Vazir.eot');
+    src: url('../../fonts/Vazir.eot?#iefix') format('embedded-opentype'),
+    url('../../fonts/Vazir.woff2') format('woff2'),
+    url('../../fonts/Vazir.woff') format('woff'),
+    url('../../fonts/Vazir.ttf') format('truetype');
+    }
+    @font-face {
+    font-family: Vazir;
+    font-style: normal;
+    font-weight: bold;
+    src: url('../../fonts/Vazir-Bold.eot');
+    src: url('../../fonts/Vazir-Bold.eot?#iefix') format('embedded-opentype'),
+    url('../../fonts/Vazir-Bold.woff2') format('woff2'),
+    url('../../fonts/Vazir-Bold.woff') format('woff'),
+    url('../../fonts/Vazir-Bold.ttf') format('truetype');
+    }
+
+    @font-face {
+        font-family: Yekan;
+       src: url('../../fonts/Yekan.ttf') format('truetype');
+        font-weight: bold;
+        font-style: normal;
+        }
+
+
+        body{
+            direction: rtl;
+            padding:0px;
+            margin:0px;
+            cursor:pointer;
+            font-family:'Yekan'
+        } 
+        
+        
+.accident{
+    display: flex;
+    flex-direction:row;
+    flex-wrap:wrap;
+}
+
+.accident1{
+    display: flex;
+    flex-direction:column;
+    flex-wrap:wrap;  
+    border:1px solid black;
+    border-radius:10px;
+    margin: 10px;
+    padding:2px 20px
+}
+
+.pic{
+    display: flex;
+    flex-direction:column;
+    flex-wrap:wrap;  
+}
+
+.header{
+    display: flex;
+    flex-direction:row;
+    flex-wrap:wrap;     
+    justify-content: space-between;
+    width: 40%;
+    margin: 10px;
+}
+
+
+.pic div{
+    display: flex;
+    flex-direction:row;
+    flex-wrap:wrap;  
+}
+
+.pic div img {
+    width: 50px;
+    height:50px;
+    padding:6px 4px ;
+
+}
+.name{
+    display: flex;
+    flex-direction:row;
+    flex-wrap:wrap;  
+    justify-content: space-between;
+    margin-top: 20px;
+
+}
+
+.map{
+    display: flex;
+    flex-direction:row;
+    flex-wrap:wrap;  
+    justify-content: space-between;  
+}
+
+.map1{
+    width: 250px;
+    height: 100px;
+    border-radius: 15px;
+    border:1px solid black
+}
+
+.map div img{
+    width:120px;
+    height:100px;
+    border:1px solid black;
+    margin-left: 10px;
+    margin-right: 10px;
+
+
+}
+.name1{
+    margin: 20px;
+}
+.voice{
+    display: flex;
+    flex-direction:row;
+    flex-wrap:wrap;    
+}
+
+.voice div i{
+    border: 0.5px solid #EBEBF0;
+box-shadow: 2px 0px 8px rgba(0, 0, 0, 0.12);
+border-radius: 8px;
+padding: 9px;
+margin-right: 20px;
+background:#F4F4F4
+
+}
+
+.voicepic{
+    height:20px;
+    width:130px;
+    border: 0.5px solid #EBEBF0;
+    box-shadow: 2px 0px 8px rgba(0, 0, 0, 0.12);
+    border-radius: 8px;
+    padding: 9px;
+    background:#F4F4F4;
+    margin-right: 20px;
+
+}
+
+#download{
+    display: flex;
+    flex-direction:column;
+    flex-wrap:wrap;
+    border: 1px solid black;
+    text-align: center;
+    width:120px;
+    height:100px;
+
+}
+
+#download i{
+    background: #82C1E1;
+    padding:15px;
+    border-radius: 10px;
+    margin: 10px 0px
+}
+

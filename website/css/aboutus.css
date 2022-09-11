@@ -1,0 +1,146 @@
+
+body{
+    direction: rtl;
+    padding:0px;
+    margin:0px;
+    cursor:pointer
+
+}
+
+p{
+    width:35%;
+    margin-left:auto;
+    margin-right: auto;
+}
+a{
+    text-decoration: none;
+    color: #FAFBFC;
+}
+
+a:hover{
+    color: #0D92B2;
+}
+
+.iframeHeader{
+    width:100%;
+    border:none
+}
+
+
+.header{
+    display:flex;
+    flex-direction:column;
+    flex-wrap:wrap;
+    margin-top: 0px;
+    background: linear-gradient(180deg, rgba(223, 239, 247, 0) 0%, #E9F2F7 100%);}
+
+.headerItem{
+  align-items:center;
+  margin-left: auto;
+  margin-right: auto;
+  padding:20px 40px 20px 40px;
+  height:170px;
+  margin-top: 10px;
+  background: #F0F8FC;
+box-shadow: 0px 4px 8px rgba(0, 0, 0, 0.16);
+border-radius: 24px;
+}   
+
+.headerItem div img{
+    margin-top: -30px;
+    margin-right: 30px;
+}
+
+
+.blogPic3{
+    transform: rotate(90deg);
+}
+.logo{
+    width:110px;
+    height:110px
+}
+
+.border{
+    width:170px;
+    height:170px;
+    position: absolute;
+    /* margin-top:-48px */
+}
+
+.rec{
+    width:170px;
+    height:170px;
+    position: absolute;
+    float: left;
+    margin-right: 1090px;
+    /* direction: rtl; */
+    margin-top: -130px;
+}
+
+.card1{
+    display:flex;
+    flex-direction:row;
+    flex-wrap: wrap;
+margin-top: 50px;
+justify-content:center;
+}
+
+.card1Item1{
+    display:flex;
+    flex-direction:column;
+    width:40%;
+    margin-left: 20px;
+    margin-right: 20px;
+
+}
+
+.card1Item{
+    margin-left: 20px;
+    margin-right: 20px;
+
+}
+
+.pic{
+    width:250px;
+    height:250px;
+
+}
+
+
+.topic{
+    margin-top:10px;
+    margin-bottom: 30px;
+    font-size: 20px;
+    font-weight: bold;
+}
+
+.buttonCard{
+    background:#0D92B2;
+    border-radius: 12px;
+    width:70px;
+    text-align:center;
+    border:none;
+    padding:6px;
+    float:left;
+}
+
+.card2{
+    display:flex;
+    flex-direction:row;
+    flex-wrap: wrap;
+margin-top: 50px;
+justify-content:center;
+background: linear-gradient(180deg, #E9F2F7 0%, rgba(223, 239, 247, 0.0623543) 100%);
+padding:20px 0px 20px 0px
+}
+
+.iframeFooter{
+    width:100%;
+    height:350px;
+    overflow-y: none;
+    margin-top: 10px;
+    border:none;
+    margin-bottom: -22px;
+/* padding-top: 40px; */
+}
+

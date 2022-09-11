@@ -1,0 +1,70 @@
+body{
+    direction: rtl;
+    padding:0px;
+    margin:0px;
+    cursor:pointer
+
+}
+
+a{
+    text-decoration: none;
+    color: #FAFBFC;
+}
+
+.contentHeader{
+    background-color: #0A2A3D;
+
+
+}
+
+.headerButton{
+    margin-right: 140px;
+    margin-top: 15px;
+}
+.button{
+    padding:7px 15px 7px 15px;
+    border-radius:10px;
+    border:none;
+    background-color: #0D92B2;
+    cursor:pointer
+}
+.header1{
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    height: 40%;
+    margin-right: 120px;
+    color:#ffffff;
+}
+.headerItem1{
+    margin-left: 30px;
+    margin-right: 30px;
+    margin-top: 3px;
+    display: flex;
+    flex-direction:row;
+
+}
+.headerItem2{
+    margin-left: 30px;
+    margin-right: 30px;
+    margin-top: 20px;
+}
+
+.bimanyimg{
+    height:30px;
+    width:30px;
+    padding-top: 20px;
+    /* position: relative; */
+}
+
+.bimanyname{
+    width:30px;
+    height:50px;
+    /* margin-right: 160px;
+    margin-bottom:-50px; */
+    transform: rotate(90deg);
+    margin-top: -15px;
+    margin-right: -14px;
+
+}
+

@@ -1,0 +1,109 @@
+<!DOCTYPE HTML>
+<html>
+<head>
+<meta charset="utf-8">
+<link rel="stylesheet" href="../css/evaluatorStatisticalinformation.css">
+<!-- <title>Basic Page Structure</title> -->
+<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+<script src="https://cdnjs.cloudflare.com/ajax/libs/Chart.js/2.5.0/Chart.min.js"></script>
+</head>
+<body>
+    <iframe src="./header.html" class="iframeheader"></iframe>
+    <div class="tableBorder">
+        <div class="tableborderHeader">
+            <a href="./evaluatorStatisticalinformationCheckbox.html"><input type="checkbox"  name="check1" value="2"><span class="text"> رشته بیمه</span></a>
+            <a href="./evaluatorStatisticalinformation.html"><input type="checkbox"  name="check2" value="22"><span>     شرکت بیمه</span></a>
+            <input type="checkbox" checked name="check3" value="22"><span> استان </span>
+    
+        </div>
+        <div class="tableBorderContent">
+        <canvas id="myChart" class="canvasStyle"></canvas>
+
+        <script>
+             var xValues = ['قم ',' مازندران',' تبریز',' اصفهان','تهران','','','','','','','','','','','',''];
+        var yValues = ['40','50','35','58','90','50','35','58','34','66','87','30']
+        var barColors = ["#82C2E2", "#82C2E2","#82C2E2","#82C2E","#82C2E2", "#82C2E2","#82C2E2","#82C2E","#82C2E2", "#82C2E2","#82C2E2","#82C2E"];
+        
+        new Chart("myChart", {
+          type: "bar",
+          data: {
+            labels: xValues,
+            datasets: [{
+              backgroundColor: barColors,
+              data: yValues
+            }]
+          },
+          options: {
+            legend: {display: false},
+          }
+        });
+        </script>
+            
+        </div>
+            
+
+        </div>
+    </div>
+ 
+<div class="rightDiv">
+    
+    <div class="divHeader">
+        <i class="fa fa-user icon"><span class="span1">پنل مدیریت</span></i>
+        <div class="imgDiv">
+            <img src="../../img/pic.png" class="pic"/>
+            <span class="span2">علیرضا محمدی</span>
+        </div>
+    </div>
+    <div class="tabRight">
+     <a href="./Statisticalinformation.html"><div class="tabRightItem">
+        <div class="item2"><i class="fa fa-gavel icon1"><span class="span3"> پرونده ها</span></i></div>
+    </div>
+  </a> 
+  <a href="objectioninformation.html"><div class="tabRightItem">
+    <div class="item2"><i class="fa fa-gavel icon1"><span class="span3">  اعتراضات</span></i></div>
+</div>
+</a> 
+      <a href="./userStatisticalinformation.html">
+        <div class="tabRightItem">
+             <div class="item2"><i class="fa fa-address-card icon1"><span class="span3"> کاربران</span></i></div>      
+        </div>
+      </a>
+
+        <div class="tabRightItem">
+          <div class="item"><i class="fa fa-user-circle icon1"><span class="span3"> ارزیابان</span></i></div>
+           <div class="item11"><span class="span3">اطلاعات آماری</span></div>
+           <a href="./evaluatorInformation.html"><div class="item1"><span class="span3"> مشخصات ارزیابان</span></div></a>
+
+         
+     </div>
+
+        <div class="tabRightItem">
+            <div class="item2"><i class="fa fa-exclamation-triangle icon1"><span class="span3"> مناطق پر ریسک</span></i></div>
+
+        </div>
+        <div class="tabRightItem">
+            <div class="item2"><i class="fa fa-building icon1"><span class="span3">شرکت های بیمه </span></i></div>
+
+        </div>
+        <div class="clock">
+          <div class="clock1">
+            <span class="span4">یکشنبه</span>
+          <span class="span6"> 23/4/1400</span>
+          </div>
+          <span class="span5">10:23</span>
+
+        </div>
+
+        <button class="exite">
+            <span >خروج</span>
+        </button>
+
+
+    </div>
+  
+</div> 
+
+<!-- <iframe src="./header.html"></iframe> -->
+
+</body>
+</html>

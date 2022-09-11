@@ -1,0 +1,92 @@
+@font-face {
+    font-family: Vazir;
+    font-style: normal;
+    font-weight: normal;
+    src: url('../../fonts/Vazir.eot');
+    src: url('../../fonts/Vazir.eot?#iefix') format('embedded-opentype'),
+    url('../../fonts/Vazir.woff2') format('woff2'),
+    url('../../fonts/Vazir.woff') format('woff'),
+    url('../../fonts/Vazir.ttf') format('truetype');
+    }
+    @font-face {
+    font-family: Vazir;
+    font-style: normal;
+    font-weight: bold;
+    src: url('../../fonts/Vazir-Bold.eot');
+    src: url('../../fonts/Vazir-Bold.eot?#iefix') format('embedded-opentype'),
+    url('../../fonts/Vazir-Bold.woff2') format('woff2'),
+    url('../../fonts/Vazir-Bold.woff') format('woff'),
+    url('../../fonts/Vazir-Bold.ttf') format('truetype');
+    }
+
+    @font-face {
+        font-family: Yekan;
+       src: url('../../fonts/Yekan.ttf') format('truetype');
+        font-weight: bold;
+        font-style: normal;
+        }
+
+
+        body{
+            direction: rtl;
+            padding:0px;
+            margin:0px;
+            cursor:pointer;
+            font-family:'Yekan'
+        }     
+.headerLogo{
+    height:50px;
+    width:100%;
+    background: #F0F8FC;
+    display:flex;
+    flex-direction: row;
+    justify-content:center
+}
+
+.logo{
+    width:40px;
+    height:40px;
+    color: #0D92B2;
+    padding: 5px 6px ;
+}
+
+.title{
+    display:flex;
+    flex-direction: column;
+    padding: 2px 50px;
+}
+
+.datename{
+    display:flex;
+    flex-direction: row;   
+    justify-content:space-between;
+    width:26%;
+    margin-top: 10px;
+}
+
+.datechoose{
+    display:flex;
+    flex-direction: row;
+    justify-content:space-between;
+    width:75% ;
+    padding:10px 0px;
+
+}
+
+.datechoose select{
+    padding:6px 0px;
+    border-radius: 7px;
+    font-family: 'Yekan';
+}
+
+.showData{
+    padding:4px 20px;
+    margin-top: -3px;
+    background: #0D92B2;
+border-radius: 8px;
+border:none;
+margin-right: 30px;
+
+}
+
+
